@@ -4,7 +4,7 @@ defmodule DropThe.MixProject do
   def project do
     [
       app: :dropthe,
-      version: "0.1.1",
+      version: "0.1.2",
       elixir: "~> 1.14",
       description: "Access open datasets for movies, series, crypto, companies from DropThe.",
       package: package(),
