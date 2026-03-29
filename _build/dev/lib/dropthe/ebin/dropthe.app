@@ -1,0 +1,1 @@
+{application,dropthe,[{modules,['Elixir.DropThe']},{optional_applications,[]},{applications,[kernel,stdlib,elixir]},{description,"Access open datasets for movies, series, crypto, companies from DropThe."},{registered,[]},{vsn,"0.1.1"}]}.

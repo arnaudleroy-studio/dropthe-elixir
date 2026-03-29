@@ -5,7 +5,7 @@ defmodule DropThe do
   Homepage: https://dropthe.org
   """
 
-  @version "0.1.0"
+  @version "0.1.1"
   @base_url "https://dropthe.org"
 
   def version, do: @version

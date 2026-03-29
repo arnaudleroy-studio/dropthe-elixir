@@ -4,13 +4,20 @@ defmodule DropThe.MixProject do
   def project do
     [
       app: :dropthe,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.14",
       description: "Access open datasets for movies, series, crypto, companies from DropThe.",
       package: package(),
+      deps: deps(),
       docs: docs(),
       source_url: "https://github.com/arnaudleroy-studio/dropthe-elixir",
       homepage_url: "https://dropthe.org"
+    ]
+  end
+
+  defp deps do
+    [
+      {:ex_doc, "~> 0.31", only: :dev, runtime: false}
     ]
   end
 
@@ -26,6 +33,9 @@ defmodule DropThe.MixProject do
   end
 
   defp docs do
-    [main: "DropThe"]
+    [
+      main: "DropThe",
+      extras: ["README.md"]
+    ]
   end
 end
